@@ -1,21 +1,26 @@
-import React, {useState} from 'react';
-import marked from 'marked';
+import { connect } from 'react-redux';
 
-export const Editor = () =>{
-  const [state, setState] = useState();
-
-  
-  const handleChange = (e) => {
-    const markDownValue = e.target.value;
-    setState(marked(markDownValue));
-
-  }
-
+const Editor = (props) =>{
   return(
     <div>
-    <textarea id="editor" onChange={handleChange}></textarea>
-    <div dangerouslySetInnerHTML={{ __html: state }} />
+    <textarea id="editor" defaultValue={props.state.content} onChange={props.onChangeContent}></textarea>
     </div>
   )
 }
 
+const mapStateToProps = (state) =>{
+  return {
+    content: state.content
+  }
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    onChangeContent: (e) => {
+      const action = {type: 'CHANGECONTENT', payload: e.target.value};
+      dispatch(action);
+    }
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Editor);
