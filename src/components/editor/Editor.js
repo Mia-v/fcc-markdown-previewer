@@ -1,4 +1,5 @@
 import { connect } from 'react-redux';
+import './Editor.scss';
 
 const Editor = (props) =>{
   return(

@@ -1,0 +1,57 @@
+@import '../../style.scss';
+
+#preview {
+  border: $border;
+  width: 95vw;
+  height: 50vh;
+  overflow: scroll;
+  text-align: left;
+  padding: $padding;
+  background-color: $primaryMU;
+  box-shadow: $muShadow;
+  
+  * {
+    max-width: 100%;
+  }
+
+  @media screen and (min-width: 1025px) {
+    width: 40vw;
+    height: 90vh;
+    overflow: scroll;
+  }
+
+  pre, code{
+    background-color: $primaryMD;
+    height: auto;
+    max-width: 100%;
+    font-weight: bold;
+    color: $accent-color;
+    overflow-x: scroll;
+  }
+
+  table{
+    border-collapse: collapse;
+
+    th, tr, td {
+      border: 1px solid black;
+      padding: 0.1rem 0.5rem;
+    }
+  } 
+
+  blockquote {
+    width: 50%;
+    border-left: 3px solid $accent-color;
+    color: $accent-color;
+    padding: 0.1rem 0.5rem;
+  }
+
+  a {
+    color: $accent-color;
+  }
+
+  img{
+    margin: 0.5rem;
+  }
+  
+ 
+}
