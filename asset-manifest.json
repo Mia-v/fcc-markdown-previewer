@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/fcc-markdown-previewer/static/css/main.3cc66c58.chunk.css",
-    "main.js": "/fcc-markdown-previewer/static/js/main.2f7d766f.chunk.js",
-    "main.js.map": "/fcc-markdown-previewer/static/js/main.2f7d766f.chunk.js.map",
-    "runtime-main.js": "/fcc-markdown-previewer/static/js/runtime-main.316121cc.js",
-    "runtime-main.js.map": "/fcc-markdown-previewer/static/js/runtime-main.316121cc.js.map",
-    "static/js/2.bd794c72.chunk.js": "/fcc-markdown-previewer/static/js/2.bd794c72.chunk.js",
-    "static/js/2.bd794c72.chunk.js.map": "/fcc-markdown-previewer/static/js/2.bd794c72.chunk.js.map",
-    "static/js/3.69e87463.chunk.js": "/fcc-markdown-previewer/static/js/3.69e87463.chunk.js",
-    "static/js/3.69e87463.chunk.js.map": "/fcc-markdown-previewer/static/js/3.69e87463.chunk.js.map",
+    "main.css": "/fcc-markdown-previewer/static/css/main.45563d9b.chunk.css",
+    "main.js": "/fcc-markdown-previewer/static/js/main.d07c94c4.chunk.js",
+    "main.js.map": "/fcc-markdown-previewer/static/js/main.d07c94c4.chunk.js.map",
+    "runtime-main.js": "/fcc-markdown-previewer/static/js/runtime-main.facff942.js",
+    "runtime-main.js.map": "/fcc-markdown-previewer/static/js/runtime-main.facff942.js.map",
+    "static/js/2.d0a94e93.chunk.js": "/fcc-markdown-previewer/static/js/2.d0a94e93.chunk.js",
+    "static/js/2.d0a94e93.chunk.js.map": "/fcc-markdown-previewer/static/js/2.d0a94e93.chunk.js.map",
+    "static/js/3.80a267a2.chunk.js": "/fcc-markdown-previewer/static/js/3.80a267a2.chunk.js",
+    "static/js/3.80a267a2.chunk.js.map": "/fcc-markdown-previewer/static/js/3.80a267a2.chunk.js.map",
     "index.html": "/fcc-markdown-previewer/index.html",
-    "static/css/main.3cc66c58.chunk.css.map": "/fcc-markdown-previewer/static/css/main.3cc66c58.chunk.css.map",
-    "static/js/2.bd794c72.chunk.js.LICENSE.txt": "/fcc-markdown-previewer/static/js/2.bd794c72.chunk.js.LICENSE.txt"
+    "precache-manifest.76f8492ddf956321b954dc28e31a8274.js": "/fcc-markdown-previewer/precache-manifest.76f8492ddf956321b954dc28e31a8274.js",
+    "service-worker.js": "/fcc-markdown-previewer/service-worker.js",
+    "static/css/main.45563d9b.chunk.css.map": "/fcc-markdown-previewer/static/css/main.45563d9b.chunk.css.map",
+    "static/js/2.d0a94e93.chunk.js.LICENSE.txt": "/fcc-markdown-previewer/static/js/2.d0a94e93.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.316121cc.js",
-    "static/js/2.bd794c72.chunk.js",
-    "static/css/main.3cc66c58.chunk.css",
-    "static/js/main.2f7d766f.chunk.js"
+    "static/js/runtime-main.facff942.js",
+    "static/js/2.d0a94e93.chunk.js",
+    "static/css/main.45563d9b.chunk.css",
+    "static/js/main.d07c94c4.chunk.js"
   ]
 }
