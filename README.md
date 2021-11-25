@@ -1,6 +1,7 @@
 # fcc-markdown-previewer
 Educational project for freeCodeCamp
 This project is published on github-pages. Here is the [link](https://mia-v.github.io/fcc-markdown-previewer/) to it.
+<img width="1680" alt="fcc-markdown-preview" src="https://user-images.githubusercontent.com/37041125/143422111-5b017dbd-8366-4525-86cf-32a056726128.png">
 
 
 # Getting Started with Create React App
@@ -75,3 +76,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
+### Used libraries
+
+[Marked](https://www.npmjs.com/package/marked)
